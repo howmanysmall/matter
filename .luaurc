@@ -1,6 +1,9 @@
 {
-	"languageMode": "nonstrict",
+	"aliases": {},
+	"languageMode": "strict",
 	"lint": {
+		"*": true,
 		"LocalShadow": false
-	}
+	},
+	"globals": []
 }

@@ -50,3 +50,5 @@ build
 *.rbxl.lock
 matter.rbxm
 sourcemap.json
+
+*.code-workspace

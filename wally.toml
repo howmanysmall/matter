@@ -3,11 +3,7 @@ name = "matter-ecs/matter"
 description = "A modern ECS library for Roblox"
 version = "0.8.3"
 license = "MIT"
-authors = [
-    "Eryn L. K.",
-    "Lucas Gangstad <lucas@lasttalon.dev>",
-    "Ukendio <ukendio@gmail.com>",
-]
+authors = ["Eryn L. K.", "Lucas Gangstad <lucas@lasttalon.dev>", "Ukendio <ukendio@gmail.com>"]
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 exclude = [
@@ -26,4 +22,5 @@ exclude = [
 ]
 
 [dev-dependencies]
-TestEZ = "roblox/testez@0.4.1"
+Jest = "jsdotlua/jest@3.6.1-rc.2"
+JestGlobals = "jsdotlua/jest-globals@3.6.1-rc.2"
