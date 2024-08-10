@@ -46,6 +46,6 @@ type JestConfiguration = {
 
 local JestConfiguration: JestConfiguration = {
 	displayName = "Matter";
-	testMatch = {"**/*.spec", "**/*.test"};
+	testMatch = {"**/*.test"};
 }
 return JestConfiguration
